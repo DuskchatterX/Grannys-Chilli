@@ -13,7 +13,6 @@ vsp = vsp + grv;
 if (place_meeting(x,y+1, ob_wall)) && (key_jump) 
 {
 	vsp = -7;
-	
 }
 
 //Player's horizontal collision with walls
@@ -37,3 +36,25 @@ if (place_meeting(x, y+vsp, ob_wall))
 	vsp = 0;
 }
 y = y + vsp;
+
+//Player's animation change for jump (Holt)
+if (!place_meeting(x,y+1,ob_wall))
+{
+	sprite_index = sp_Player_jump;
+	image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = sp_Player;
+	}
+	else
+	{
+		sprite_index = sp_Player_running;
+	}
+}
+
+if (hsp != 0) image_xscale = sign(hsp);
