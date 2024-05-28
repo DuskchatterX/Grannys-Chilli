@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"ob_roach",
+  "%Name":"ob_roach_dead",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ob_roach",
+  "name":"ob_roach_dead",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_roach",
-    "path":"sprites/sp_roach/sp_roach.yy",
+    "name":"sp_roach_dead",
+    "path":"sprites/sp_roach_dead/sp_roach_dead.yy",
   },
-  "spriteMaskId":{
-    "name":"sp_roach",
-    "path":"sprites/sp_roach/sp_roach.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
