@@ -1,4 +1,4 @@
-//Player's movement and input
+//Player's movement and input (Rika)
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);

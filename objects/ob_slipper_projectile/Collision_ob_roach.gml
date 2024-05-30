@@ -7,3 +7,6 @@ with (other)
 }
 
 instance_destroy();
+{
+	audio_play_sound(sn_slipper,5,false);
+}
