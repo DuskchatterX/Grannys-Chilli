@@ -29,7 +29,7 @@ if (percent == 1) || (percent == 0)
 		case TRANS_MODE.GOTO:
 		{
 			mode = TRANS_MODE.INTRO;
-			room_goto_(target);
+			room_goto(target);
 			break;
 			}
 		case TRANS_MODE.RESTART:

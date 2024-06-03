@@ -4,7 +4,7 @@ y = ob_player.y+4;
 
 image_angle = point_direction (x,y,mouse_x,mouse_y);
 
-//firing delay for projectile Holt
+//firing delay for projectile (Holt)
 firingdelay = firingdelay - 1;
 recoil = max (0,recoil - 1);
 

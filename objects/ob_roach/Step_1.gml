@@ -9,5 +9,13 @@ if (hp <= 0)
 		vsp = lengthdir_y(3,direction)-2;
 		if (sign(hsp) !=0) image_xscale = sign (hsp);
 	}
+	//score kills (Holt)
+	if (instance_exists(ob_player))
+	{
+		global.kills++;
+		global.killsthisroom++;
+		with (ob_game) killtextscale = 2;
+		
+	}
 	instance_destroy();
 }
