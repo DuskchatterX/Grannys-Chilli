@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ob_signpost",
+  "%Name":"ob_level_end",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":54,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ob_signpost",
+  "name":"ob_level_end",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -25,16 +25,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"","%Name":"text","filters":[],"listItems":[],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"default\"","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_signpost",
-    "path":"sprites/sp_signpost/sp_signpost.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

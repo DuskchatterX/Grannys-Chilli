@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"Granny's Chilli",
   "resources":[
@@ -40,12 +40,14 @@
     {"id":{"name":"ob_caterpillar","path":"objects/ob_caterpillar/ob_caterpillar.yy",},},
     {"id":{"name":"ob_chilli","path":"objects/ob_chilli/ob_chilli.yy",},},
     {"id":{"name":"ob_game","path":"objects/ob_game/ob_game.yy",},},
+    {"id":{"name":"ob_level_end","path":"objects/ob_level_end/ob_level_end.yy",},},
     {"id":{"name":"ob_menu","path":"objects/ob_menu/ob_menu.yy",},},
     {"id":{"name":"ob_player_dead","path":"objects/ob_player_dead/ob_player_dead.yy",},},
     {"id":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},},
     {"id":{"name":"ob_roach_dead","path":"objects/ob_roach_dead/ob_roach_dead.yy",},},
     {"id":{"name":"ob_roach_flying","path":"objects/ob_roach_flying/ob_roach_flying.yy",},},
     {"id":{"name":"ob_roach","path":"objects/ob_roach/ob_roach.yy",},},
+    {"id":{"name":"ob_score","path":"objects/ob_score/ob_score.yy",},},
     {"id":{"name":"ob_signpost","path":"objects/ob_signpost/ob_signpost.yy",},},
     {"id":{"name":"ob_slipper_projectile","path":"objects/ob_slipper_projectile/ob_slipper_projectile.yy",},},
     {"id":{"name":"ob_slipper","path":"objects/ob_slipper/ob_slipper.yy",},},
@@ -53,6 +55,7 @@
     {"id":{"name":"ob_transition","path":"objects/ob_transition/ob_transition.yy",},},
     {"id":{"name":"ob_wall","path":"objects/ob_wall/ob_wall.yy",},},
     {"id":{"name":"ob_wall2","path":"objects/ob_wall2/ob_wall2.yy",},},
+    {"id":{"name":"r_Ending","path":"rooms/r_Ending/r_Ending.yy",},},
     {"id":{"name":"r_Level1","path":"rooms/r_Level1/r_Level1.yy",},},
     {"id":{"name":"r_Menu","path":"rooms/r_Menu/r_Menu.yy",},},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},},
@@ -76,6 +79,7 @@
     {"id":{"name":"sp_roach","path":"sprites/sp_roach/sp_roach.yy",},},
     {"id":{"name":"sp_signpost","path":"sprites/sp_signpost/sp_signpost.yy",},},
     {"id":{"name":"sp_slipper","path":"sprites/sp_slipper/sp_slipper.yy",},},
+    {"id":{"name":"sp_title_ending","path":"sprites/sp_title_ending/sp_title_ending.yy",},},
     {"id":{"name":"sp_title","path":"sprites/sp_title/sp_title.yy",},},
     {"id":{"name":"sp_Wall","path":"sprites/sp_Wall/sp_Wall.yy",},},
     {"id":{"name":"sp_Wall2","path":"sprites/sp_Wall2/sp_Wall2.yy",},},
@@ -85,6 +89,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"r_Menu","path":"rooms/r_Menu/r_Menu.yy",},},
     {"roomId":{"name":"r_Level1","path":"rooms/r_Level1/r_Level1.yy",},},
+    {"roomId":{"name":"r_Ending","path":"rooms/r_Ending/r_Ending.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
