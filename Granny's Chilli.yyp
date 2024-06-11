@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Granny's Chilli",
   "resources":[
@@ -67,6 +67,7 @@
     {"id":{"name":"sp_background","path":"sprites/sp_background/sp_background.yy",},},
     {"id":{"name":"sp_caterpillar","path":"sprites/sp_caterpillar/sp_caterpillar.yy",},},
     {"id":{"name":"sp_chilli","path":"sprites/sp_chilli/sp_chilli.yy",},},
+    {"id":{"name":"sp_ending_text","path":"sprites/sp_ending_text/sp_ending_text.yy",},},
     {"id":{"name":"sp_marker","path":"sprites/sp_marker/sp_marker.yy",},},
     {"id":{"name":"sp_Player_dead","path":"sprites/sp_Player_dead/sp_Player_dead.yy",},},
     {"id":{"name":"sp_Player_jump","path":"sprites/sp_Player_jump/sp_Player_jump.yy",},},
@@ -81,6 +82,7 @@
     {"id":{"name":"sp_slipper","path":"sprites/sp_slipper/sp_slipper.yy",},},
     {"id":{"name":"sp_title_ending","path":"sprites/sp_title_ending/sp_title_ending.yy",},},
     {"id":{"name":"sp_title","path":"sprites/sp_title/sp_title.yy",},},
+    {"id":{"name":"sp_trigger","path":"sprites/sp_trigger/sp_trigger.yy",},},
     {"id":{"name":"sp_Wall","path":"sprites/sp_Wall/sp_Wall.yy",},},
     {"id":{"name":"sp_Wall2","path":"sprites/sp_Wall2/sp_Wall2.yy",},},
   ],

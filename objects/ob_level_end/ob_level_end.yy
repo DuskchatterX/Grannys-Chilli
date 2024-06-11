@@ -3,6 +3,7 @@
   "%Name":"ob_level_end",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"ob_player","path":"objects/ob_player/ob_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_level_end",
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_trigger",
+    "path":"sprites/sp_trigger/sp_trigger.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
